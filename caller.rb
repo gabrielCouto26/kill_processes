@@ -1,4 +1,4 @@
-require './killer'
+require_relative 'killer'
 
-proccess_name = ARGV[0]
-Killer.new(proccess_name).kill
+processes = ARGV
+Killer.new(processes).contract
