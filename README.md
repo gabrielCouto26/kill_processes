@@ -12,14 +12,14 @@ Make sure you have ruby installed on your system...
 
 ## How I use ##
 
-Add a simple alias in your bashrc/zshrc.
+Add a simple alias in your **bashrc** or **zshrc**.
 ```sh
   alias kp="ruby path/to/kill_proccesses/caller.rb"
 ```
 
 Then, call it wherever you want. On the exemple below, we are going to kill the slack and zoom processes.
 ```sh
-  kp slack zoom
+  $ kp slack zoom
 ```
 
 It should respond "Proccess {process_name} not found" if it's not found or not running.
